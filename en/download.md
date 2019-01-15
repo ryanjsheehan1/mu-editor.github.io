@@ -51,8 +51,8 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">PortaMu - Run Mu from a Pendrive</h4>
-    <p><!--a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_win32.zip" class="btn btn-primary" role="button">Windows 32-bit</a>
-    <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_win64.zip" class="btn btn-primary" role="button">Windows 64-bit</a -->
+    <p><a href="https://github.com/AllAboutCode/PortaMu/releases/download/v1.0.2/portamu_1.0.2_win32.zip" class="btn btn-primary" role="button">Windows 32-bit</a>
+    <a href="https://github.com/AllAboutCode/PortaMu/releases/download/v1.0.2/portamu_1.0.2_win64.zip" class="btn btn-primary" role="button">Windows 64-bit</a>
     <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_osx.zip" class="btn btn-primary" role="button">Mac OSX</a>
     <a href="/en/howto/use_portamu" class="btn btn-default" role="button">Instructions</a></p>
   </div>
