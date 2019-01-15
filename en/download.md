@@ -24,8 +24,8 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.1/mu-editor_1.0.1_win32.exe" class="btn btn-primary" role="button">32-bit</a>
-    <a href="https://github.com/mu-editor/mu/releases/download/1.0.1/mu-editor_1.0.1_win64.exe" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win32.exe" class="btn btn-primary" role="button">32-bit</a>
+    <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win64.exe" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -38,7 +38,7 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">Mac OSX Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.1/mu-editor_1.0.1_osx.dmg" class="btn btn-primary" role="button">Download</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_osx.dmg" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/install_macos" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -51,9 +51,9 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">PortaMu - Run Mu from a Pendrive</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.1/portamu_1.0.1_win32.zip" class="btn btn-primary" role="button">Windows 32-bit</a>
-    <a href="https://github.com/mu-editor/mu/releases/download/1.0.1/portamu_1.0.1_win64.zip" class="btn btn-primary" role="button">Windows 64-bit</a>
-    <a href="https://github.com/mu-editor/mu/releases/download/1.0.1/mu-editor_1.0.1_osx.dmg" class="btn btn-primary" role="button">Mac OSX</a>
+    <p><!--a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_win32.zip" class="btn btn-primary" role="button">Windows 32-bit</a>
+    <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_win64.zip" class="btn btn-primary" role="button">Windows 64-bit</a -->
+    <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_osx.zip" class="btn btn-primary" role="button">Mac OSX</a>
     <a href="/en/howto/use_portamu" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
