@@ -6,6 +6,24 @@ i18n: en
 
 # Download Mu
 
+
+<div class="panel panel-danger">
+    <div class="panel-heading"><h3 class="panel-title">TRY THE ALPHA OF THE
+    NEXT VERSION OF MU!</h3></div>
+    <div class="panel-body">
+    <p>Feeling brave? Don't mind reporting bugs? Enjoy giving feedback? Then
+    we'd love you to take a sneak peak at the (unfinished work in progress)
+    next version of Mu. These are unsigned installers:
+
+    <ul>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_win32.exe">Windows 32-bit</a></li>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_win64.exe">Windows 64-bit</a></li>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_osx.dmg">Mac OSX</a></li>
+    </ul>
+    </p>
+    </div>
+</div>
+
 There are many ways to install Mu. The simplest is to download the official
 installer for Windows or Mac OSX. If you find you cannot install Mu because the
 computer you are using is locked down, you should try out PortaMu: a method of
