@@ -13,14 +13,16 @@ i18n: en
     <div class="panel-body">
     <p>Feeling brave? Don't mind reporting bugs? Enjoy giving feedback? Then
     we'd love you to take a sneak peak at the (unfinished work in progress)
-    next version of Mu. These are unsigned installers:
+    next version of Mu. These are unsigned installers:</p>
+
+    <p><strong>If you're using Mu at EuroPython's beginners' day, this is the
+    version you should install.</strong></p>
 
     <ul>
-        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_win32.exe">Windows 32-bit</a></li>
-        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_win64.exe">Windows 64-bit</a></li>
-        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.1/mu-editor_1.1.0-alpha.1_osx.dmg">Mac OSX</a></li>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.2/mu-editor_1.1.0-alpha.2_win32.exe">Windows 32-bit</a></li>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.2/mu-editor_1.1.0-alpha.2_win64.exe">Windows 64-bit</a></li>
+        <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.2/mu-editor_1.1.0-alpha.2_osx.dmg">Mac OSX</a></li>
     </ul>
-    </p>
     </div>
 </div>
 
