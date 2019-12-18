@@ -1,22 +1,18 @@
 ---
 layout: default
-title: Download Mu
-i18n: en
+title: Descarga Mu
+i18n: es
 ---
 
-# Download Mu
+# Descarga Mu
 
 
 <div class="panel panel-danger">
-    <div class="panel-heading"><h3 class="panel-title">TRY THE ALPHA OF THE
-    NEXT VERSION OF MU!</h3></div>
+    <div class="panel-heading"><h3 class="panel-title">¡PRUEBA LA PRÓXIMA VERSIÓN ALFA DE MU!</h3></div>
     <div class="panel-body">
-    <p>Feeling brave? Don't mind reporting bugs? Enjoy giving feedback? Then
-    we'd love you to take a sneak peak at the (unfinished work in progress)
-    next version of Mu. These are unsigned installers:</p>
+    <p>¿Erés valiente? ¿No te molesta reportar errores? ¿Te gusta hacer comentarios? Entonces nos encantaría que eches un vistazo a la próxima versión de Mu (trabajo inconcluso en curso). Estos son instaladores sin firmar:</p>
 
-    <p><strong>If you're using Mu at EuroPython's beginners' day, this is the
-    version you should install.</strong></p>
+    <p><strong>Si usa Mu el día de los principiantes de EuroPython, esta es la versión que debe instalar.</strong></p>
 
     <ul>
         <li><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-alpha.2/mu-editor_1.1.0-alpha.2_win32.exe">Windows 32-bit</a></li>
@@ -26,27 +22,20 @@ i18n: en
     </div>
 </div>
 
-There are many ways to install Mu. The simplest is to download the official
-installer for Windows or Mac OSX. If you find you cannot install Mu because the
-computer you are using is locked down, you should try out PortaMu: a method of
-running Mu from a pendrive on Windows or OSX. You can also use
-Python's built-in `pip` tool. Some Linux distributions come with Mu packaged
-already (and you should use your OS's package manager to install it). Finally,
-if you're on Raspbian (the version of Linux for Raspberry Pi) you can install
-Mu as a package.
+Hay muchas formas de instalar Mu. La más sencilla es descargar el instalador oficial para Windows o Mac OSX. Si usted no puede instalar Mu porque la computadora que está usando está bloqueada, debe probar PortaMu: un método para ejecutar Mu desde un pendrive en Windows u OSX. También puede usar la herramienta de pip incorporada en Python. Algunas distribuciones de Linux ya vienen con Mu empaquetado (y debe usar el administrador de paquetes de su sistema operativo para instalarlo). Y finalmente, si está usando Raspbian (la versión de Linux para Raspberry Pi) puede instalar Mu como un paquete.
 
-If you're a developer, you can find the source code
-[on GitHub](https://github.com/mu-editor/mu).
+Si eres desarrollador, puedes encontrar el código fuente en
+[GitHub](https://github.com/mu-editor/mu).
 
 <div class="media">
   <div class="media-left">
     <img src="/img/windows_logo.png" alt="Windows Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Windows Installer</h4>
+    <h4 class="media-heading">Instalador Windows</h4>
     <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win32.exe" class="btn btn-primary" role="button">32-bit</a>
     <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win64.exe" class="btn btn-primary" role="button">64-bit</a>
-    <a href="/en/howto/1.0/install_windows" class="btn btn-default" role="button">Instructions</a></p>
+    <a href="/en/howto/1.0/install_windows" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -57,9 +46,9 @@ If you're a developer, you can find the source code
     <img src="/img/apple_logo.png" alt="Apple Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Mac OSX Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_osx.dmg" class="btn btn-primary" role="button">Download</a>
-    <a href="/en/howto/1.0/install_macos" class="btn btn-default" role="button">Instructions</a></p>
+    <h4 class="media-heading">Instalador Mac OSX</h4>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_osx.dmg" class="btn btn-primary" role="button">Descargar</a>
+    <a href="/en/howto/1.0/install_macos" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -70,11 +59,11 @@ If you're a developer, you can find the source code
     <img src="/img/portamu.png" alt="PortaMu Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">PortaMu - Run Mu from a Pendrive</h4>
+    <h4 class="media-heading">PortaMu - Ejecuta Mu desde un Pendrive</h4>
     <p><a href="https://github.com/AllAboutCode/PortaMu/releases/download/v1.0.2/portamu_1.0.2_win32.zip" class="btn btn-primary" role="button">Windows 32-bit</a>
     <a href="https://github.com/AllAboutCode/PortaMu/releases/download/v1.0.2/portamu_1.0.2_win64.zip" class="btn btn-primary" role="button">Windows 64-bit</a>
     <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/portamu_1.0.2_osx.zip" class="btn btn-primary" role="button">Mac OSX</a>
-    <a href="/en/howto/1.0/use_portamu" class="btn btn-default" role="button">Instructions</a></p>
+    <a href="/en/howto/1.0/use_portamu" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -85,8 +74,8 @@ If you're a developer, you can find the source code
     <img src="/img/python_logo.png" alt="Python Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Python Package</h4>
-        <p><a href="/en/howto/1.0/install_with_python" class="btn btn-default" role="button">Instructions</a></p>
+    <h4 class="media-heading">Paquete Python</h4>
+        <p><a href="/en/howto/1.0/install_with_python" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -98,19 +87,15 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">Raspbian</h4>
-        <p><a href="/en/howto/1.0/install_raspberry_pi" class="btn btn-default" role="button">Instructions</a></p>
+        <p><a href="/en/howto/1.0/install_raspberry_pi" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
 <br/>
 
 <div class="panel panel-danger">
-    <div class="panel-heading"><h3 class="panel-title">ATTENTION LINUX USERS!</h3></div>
+    <div class="panel-heading"><h3 class="panel-title">¡ATENCIÓN USUARIOS DE LINUX!</h3></div>
     <div class="panel-body">
-    <p>On Linux, in order for Mu to work with the MicroPython based devices
-    you need to ensure you add yourself to the correct permissions group
-    (usually the <code>dialout</code> or <code>uucp</code> groups). Also make
-    sure that your distribution automatically mounts flash devices, or make
-    sure to mount them manually.</p>
+    <p>En Linux, para que Mu funcione con los dispositivos basados ​​en MicroPython, debe asegurarse de agregar al grupo los permisos correctos (generalmente los grupos son <code>dialout</code> o <code>uucp</code>). También debe asegúrese de que su distribución monte automáticamente los dispositivos flash, o asegúrese de montarlos manualmente.</p>
     </div>
 </div>
