@@ -10,7 +10,7 @@ i18n: es
 <div class="panel panel-danger">
     <div class="panel-heading"><h3 class="panel-title">¡PRUEBA LA PRÓXIMA VERSIÓN ALFA DE MU!</h3></div>
     <div class="panel-body">
-    <p>¿Erés valiente? ¿No te molesta reportar errores? ¿Te gusta hacer comentarios? Entonces nos encantaría que eches un vistazo a la próxima versión de Mu (trabajo inconcluso en curso). Estos son instaladores sin firmar:</p>
+    <p>¿Erés valiente? ¿No te molesta reportar errores? ¿Te gusta dar tu opinión? Entonces nos encantaría que eches un vistazo a la próxima versión de Mu (trabajo inconcluso en curso). Estos son instaladores sin firmar:</p>
 
     <p><strong>Si usa Mu el día de los principiantes de EuroPython, esta es la versión que debe instalar.</strong></p>
 
