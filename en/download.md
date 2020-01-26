@@ -44,8 +44,8 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win32.exe" class="btn btn-primary" role="button">32-bit</a>
-    <a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_win64.exe" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.3/mu-editor_1.0.3_win32.exe" class="btn btn-primary" role="button">32-bit</a>
+    <a href="https://github.com/mu-editor/mu/releases/download/1.0.3/mu-editor_1.0.3_win64.exe" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/1.0/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -58,7 +58,7 @@ If you're a developer, you can find the source code
   </div>
   <div class="media-body">
     <h4 class="media-heading">Mac OSX Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.2/mu-editor_1.0.2_osx.dmg" class="btn btn-primary" role="button">Download</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.0.3/mu-editor.dmg" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/1.0/install_macos" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>

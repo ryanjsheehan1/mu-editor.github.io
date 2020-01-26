@@ -35,6 +35,18 @@ The process of flashing takes about 10 seconds, as shown below:
   <br/>
 </div>
 
+<div class="panel panel-danger">
+    <div class="panel-heading"><strong>Flashing on OSX Catalina</strong></div>
+    <div class="panel-body">
+        <p>On OSX Catalina and later you need to have the correct permissions
+        for Mu to write to flash the micro:bit. The simplest way to get such
+        permission is to run Mu as an administrator by typing the following
+        commands into the terminal application:</p>
+        <pre>$ cd /Applications
+$ sudo open mu-editor.app</pre>
+    </div>
+</div>
+
 When a micro:bit has MicroPython flashed onto it, it has a small and simple
 file system for storing files. Mu's "Files" button makes it easy to access,
 put, get and delete files on your device.
