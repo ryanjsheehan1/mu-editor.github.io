@@ -87,6 +87,23 @@ you want to open Mu. Click "Open":
     </div>
 </div>
 
+<div class="panel panel-warning" id="catalina-permissions">
+    <div class="panel-heading"><strong>Disk Permissions in OSX Catalina</strong></div>
+    <div class="panel-body">
+    <p>If you're running Catalina then you might have to give the app
+    permission to access USB mounted devices. To do that:</p>
+
+    <ul>
+        <li>Launch System Preferences.</li>
+        <li>Select "Security & Privacy".</li>
+        <li>Select the "Privacy" tab at the top.</li>
+        <li>In the left column select "Full Disk Access".</li>
+        <li>Then, on the right side, click the box next to mu-editor to give it permission.</li>
+        <li>If those options are grayed out, you need to select the padlock in the lower left of the dialog box and enter you system password before you can chance the settings.</li>
+    </ul>
+    </div>
+</div>
+
 + Next time you launch Mu you will be able to just double click the Mu icon.
 
 <div class="row">
