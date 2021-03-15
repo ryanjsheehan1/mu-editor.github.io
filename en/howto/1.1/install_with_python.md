@@ -22,7 +22,7 @@ or other means of isolating your Python environment.
 At your OS's command prompt (see below) type the following command:
 
 ```
-pip3 install mu-editor
+pip3 install mu-editor==1.1.0b2
 ```
 
 You'll see a bunch of things downloading from the internet. These are the other
