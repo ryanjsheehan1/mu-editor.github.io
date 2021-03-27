@@ -24,6 +24,9 @@
       padding: 16px;
       white-space: pre-wrap;
     }
+    code {
+      font-size: 1.4em;
+    }
     a, a:visited {
       color: #004DCC;
     }
@@ -39,11 +42,24 @@
   <h1>Mu Crash Report</h1>
   <p>Something has gone wrong with Mu. Here's the error:</p>
   <pre><code id="error"></code></pre>
-  <p>
-    <a href="" target="_blank" rel="noopener noreferrer" id="bugreport">Submit a new bug report</a>
-    (you will need a <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub account</a> for this to work).
-    <!--button onclick="copyError()">Click to copy error</button-->
-  </p>
+
+  <p>Next steps:</p>
+  <ul>
+    <li>
+      <a href="" target="_blank" rel="noopener noreferrer" id="bugreport">Submit a new bug report</a>
+      (you will need a <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub account</a> for this to work).
+    </li>
+    <li>
+      <strong>Please attach you log file to the bug report.</strong>
+      Your log file can be found here:
+      <code id="log_file_path">(log file location not known)</code>
+    </li>
+    <li>
+      Be prepared to answer questions we may have about the bug report so we
+      have all the information we need so we can fix it!
+    </li>
+  </ul>
+  <!--button onclick="copyError()">Click to copy error</button-->
   <p>Apologies for the inconvenience and thanks for the help.</p>
  </div>
  <script>
@@ -63,10 +79,12 @@
     var result = {};
     for (var i = 0; i < kv_pairs.length; i++) {
         var kv_pair = kv_pairs[i].split('=');
-        if (kv_pair[0] === "p" || kv_pair[0] === "e"){
-          result[kv_pair[0]] = atob(decodeURIComponent(kv_pair[1]));
+        var key = kv_pair[0];
+        var val = kv_pair[1];
+        if (key === "p" || key === "e" || key === "f"){
+          result[key] = atob(decodeURIComponent(val));
         } else {
-          result[kv_pair[0]] = decodeURIComponent(kv_pair[1]);
+          result[key] = decodeURIComponent(val);
         }
     }
     return result;
@@ -75,9 +93,12 @@
  function update() {
    var qs = get_qs_context();
    document.getElementById("error").innerText = qs["e"];
+   if (qs["f"]) {
+     document.getElementById("log_file_path").innerText = qs["f"];
+   }
    var github_url = "https://github.com/mu-editor/mu/issues/new?";
    var github_title = "title=Crash%20Report&";
-   var body = "Version: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
+   var body = "**REMEMBER TO ATTACH YOUR LOG FILE**" + "\n\nVersion: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
    var github_body = "body=" + encodeURIComponent(body);
    document.getElementById("bugreport").href = github_url + github_title + github_body;
  }
