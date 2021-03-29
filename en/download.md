@@ -9,7 +9,7 @@ i18n: en
 The simplest and easiest way to get Mu is via the official installer for
 Windows or Mac OSX (we no longer support 32bit Windows).
 
-The current recommended version is Mu 1.1.0-beta-2. We advise people to update
+The current recommended version is Mu 1.1.0-beta-3. We advise people to update
 to this version via the links for each supported operating system:
 
 <div class="media">
@@ -18,7 +18,7 @@ to this version via the links for each supported operating system:
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.2/Mu-Editor-Win64-1.1.0b2.msi" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.3/Mu-Editor-Win64-1.1.0b3.msi" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -31,7 +31,7 @@ to this version via the links for each supported operating system:
   </div>
   <div class="media-body">
     <h4 class="media-heading">Mac OSX Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.2/Mu.Editor.1.1.0b2.dmg" class="btn btn-primary" role="button">Download</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.3/Mu.Editor.1.1.0b3.dmg" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
