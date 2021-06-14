@@ -26,7 +26,7 @@ Mu comes with its own package installer which will download the code from the Py
 
 To install a package:
 
-1. Click on the Mu Administration **cog** in the bottom right.
+1. In the "Python 3" mode, click on the Mu Administration **cog** in the bottom right.
 
 <div class="row">
   <img src="/img/en/tutorials/mu_admin.png" alt="Mu admin button" class="img-responsive center-block img-rounded movie"/>
