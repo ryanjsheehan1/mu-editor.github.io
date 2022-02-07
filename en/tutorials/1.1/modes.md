@@ -28,26 +28,12 @@ you wish to use. Just double-click on the required mode, or highlight the mode
 and click OK. If you want to back out, click cancel.
 
 <div class="row">
-  <img src="/img/en/tutorials/mode_selector.png" alt="The Mode selector" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/tutorials/mode_selector1-1.png" alt="The Mode selector" class="img-responsive center-block img-rounded"/>
   <br/>
 </div>
 
 ## Available Modes
 
-<div class="row">
-    <div class="col-md-1">
-      <img src="/img/en/tutorials/adafruit_logo.png" alt="Adafruit Logo" class="img-responsive center-block img-rounded"/>
-    </div>
-    <div class="col-md-11">
-    <p><strong><a href="adafruit">Adafruit</a></strong></p>
-    <p><a href="https://adafruit.com/">Adafruit</a> make extraordinarily
-    awesome boards for embedded development. Many of these boards run
-    Adafruit's own flavour of <a href="http://micropython.org/">MicroPython</a>
-    called <a href="https://www.adafruit.com/circuitpython">CircuitPython</a>.</p>
-    <p>The Adafruit mode understands how to interact with and connect to
-    Adafruit's boards.</p>
-    </div>
-</div>
 <div class="row">
     <div class="col-md-1">
       <img src="/img/en/tutorials/microbit_logo.png" alt="Microbit Logo" class="img-responsive center-block img-rounded"/>
@@ -60,6 +46,34 @@ and click OK. If you want to back out, click cancel.
     Software Foundation's contribution to the project.</p>
     <p>The micro:bit mode understands how to interact with and connect to
     a micro:bit.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-1">
+      <img src="/img/en/tutorials/circuitpython.png" alt="CircuitPython Logo" class="img-responsive center-block img-rounded"/>
+    </div>
+    <div class="col-md-11">
+    <p><strong><a href="circuitpython">CircuitPython</a></strong></p>
+    <p><a href="https://adafruit.com/">Adafruit</a> make extraordinarily
+    awesome boards for embedded development. Many of these boards run
+    Adafruit's own flavour of <a href="http://micropython.org/">MicroPython</a>
+    called <a href="https://www.adafruit.com/circuitpython">CircuitPython</a>.</p>
+    <p>The CircuitPython mode understands how to interact with and connect to
+    Adafruit's boards.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-1">
+      <img src="/img/en/tutorials/esp.png" alt="ESP Mode Logo" class="img-responsive center-block img-rounded"/>
+    </div>
+    <div class="col-md-11">
+    <p><strong><a href="esp">MicroPython on ESP boards</a></strong></p>
+    <p><a href="https://adafruit.com/">Adafruit</a> make extraordinarily
+    awesome boards for embedded development. Many of these boards run
+    Adafruit's own flavour of <a href="http://micropython.org/">MicroPython</a>
+    called <a href="https://www.adafruit.com/circuitpython">CircuitPython</a>.</p>
+    <p>The CircuitPython mode understands how to interact with and connect to
+    Adafruit's boards.</p>
     </div>
 </div>
 <div class="row">

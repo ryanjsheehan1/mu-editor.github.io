@@ -21,7 +21,7 @@ versions of Mu before installing the latest version.**
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.7/Mu-Editor-Win64-1.1.0b7.msi" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/1.1.0-beta.7/Signed-Mu-Editor-1.1.0b7.msi" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
