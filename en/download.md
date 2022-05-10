@@ -7,7 +7,8 @@ i18n: en
 # Download Mu
 
 The simplest and easiest way to get Mu is via the official installer for
-Windows or Mac OSX (we no longer support 32bit Windows).
+Windows or Mac OSX (we no longer support 32bit Windows). We also have an
+experimental AppImage for Linux users running on Intel based hardware.
 
 The current recommended version is Mu 1.1.1. We advise people to update
 to this version via the links for each supported operating system. All previous
@@ -19,7 +20,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -41,11 +42,12 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
 
 <div class="media">
   <div class="media-left">
-    <img src="/img/python_logo.png" alt="Python Logo" class="media-object">
+    <img src="/img/linux.png" alt="Linux Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Python Package (Linux or Native Python)</h4>
-        <p><a href="/en/howto/1.1/install_with_python" class="btn btn-default" role="button">Instructions</a></p>
+    <h4 class="media-heading">Linux AppImage Package (Experimental)</h4>
+        <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/Mu_Editor-1.1.1-x86_64.AppImage" class="btn btn-primary" role="button">Download</a>
+        <a href="/en/howto/1.1/install_linux" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
 
@@ -65,3 +67,5 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
 If you're a developer, you can find the source code
 [on GitHub](https://github.com/mu-editor/mu). All our old releases
 [can be found here](https://github.com/mu-editor/mu/releases).
+
+**Instructions for developer setup** can be found [in our developer documentation](https://mu.readthedocs.io/en/latest/).
