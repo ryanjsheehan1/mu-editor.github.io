@@ -96,7 +96,7 @@
    if (qs["f"]) {
      document.getElementById("log_file_path").innerText = qs["f"];
    }
-   var github_url = "https://github.com/mu-editor/mu/issues/new?";
+   var github_url = "https://github.com/mu-editor/crash-reports/issues/new?";
    var github_title = "title=Crash%20Report&";
    var body = "**REMEMBER TO ATTACH YOUR LOG FILE**" + "\n\nVersion: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
    var github_body = "body=" + encodeURIComponent(body);
