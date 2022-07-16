@@ -10,6 +10,8 @@ if (OSName === "Windows") {
     element = document.getElementById("download-button-macos");
 } else if (OSName === "Linux") {
     element = document.getElementById("download-button-linux");
+} else {
+    element = document.getElementById("download-button-other");
 }
 
 if (element)
