@@ -20,7 +20,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   </div>
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">Download</a>
+    <p><a id="download-button-windows" href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -33,7 +33,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   </div>
   <div class="media-body">
     <h4 class="media-heading">Mac OSX Installer</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-osx-1.1.1.dmg" class="btn btn-primary" role="button">Download</a>
+    <p><a id="download-button-macos" href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-osx-1.1.1.dmg" class="btn btn-primary" role="button">Download</a>
     <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -46,7 +46,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   </div>
   <div class="media-body">
     <h4 class="media-heading">Linux AppImage Package (Experimental)</h4>
-        <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/Mu_Editor-1.1.1-x86_64.AppImage" class="btn btn-primary" role="button">Download</a>
+        <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.1.1/Mu_Editor-1.1.1-x86_64.AppImage" class="btn btn-primary" role="button">Download</a>
         <a href="/en/howto/1.1/install_linux" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
@@ -69,3 +69,5 @@ If you're a developer, you can find the source code
 [can be found here](https://github.com/mu-editor/mu/releases).
 
 **Instructions for developer setup** can be found [in our developer documentation](https://mu.readthedocs.io/en/latest/).
+
+<script src="{{ ASSET_PATH }}/js/platform.js"></script>
