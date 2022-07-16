@@ -65,13 +65,13 @@ mount such devices when they are plugged in.
 On these Linux distributions you need to install additional software packages.
 Bring up a terminal window and run the following commands:
 
-### Arch Linux
+**Arch Linux**
 
 ```
 pacman -S libxcript-compat
 ```
 
-### Ubuntu 22.04 LTS (Jammy Jellyfish)
+**Ubuntu 22.04 LTS (Jammy Jellyfish)**
 
 ```
 apt install libfuse2
@@ -83,20 +83,20 @@ apt install libfuse2
 On most Linux distributions, double click Mu's AppImage to start it.
 A few, however, require using the terminal to do it:
 
-### Arch Linux
+**Arch Linux**
 
 As of Mu 1.1.1 running Mu requires using the Wayland display server.
 Other than that, double clicking Mu's AppImage works nicely.
 
 
-### Debian 11 (bulleye)
+**Debian 11 (bulleye)**
 
 ```
 QT_QPA_PLATFORM=wayland ./Downloads/Mu_Editor-1.1.1-x86_64.AppImage
 ```
 
 
-### Ubuntu 22.04 LTS (Jammy Jellyfish)
+**Ubuntu 22.04 LTS (Jammy Jellyfish)**
 
 ```
 QT_QPA_PLATFORM=wayland ./Downloads/Mu_Editor-1.1.1-x86_64.AppImage
