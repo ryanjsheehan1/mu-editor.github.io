@@ -17,7 +17,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   </div>
   <div class="media-body">
     <h4 class="media-heading">Instalador Windows</h4>
-    <a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">64-bit</a>
+    <a id="download-button-windows" href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
@@ -30,7 +30,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   </div>
   <div class="media-body">
     <h4 class="media-heading">Instalador Mac OSX</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-osx-1.1.1.dmg" class="btn btn-primary" role="button">Descargar</a>
+    <p><a id="download-button-macos" href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-osx-1.1.1.dmg" class="btn btn-primary" role="button">Descargar</a>
     <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
@@ -67,3 +67,5 @@ Si eres desarrollador, puedes encontrar el código fuente en
     <p>En Linux, para que Mu funcione con los dispositivos basados ​​en MicroPython, debe asegurarse de agregar al grupo los permisos correctos (generalmente los grupos son <code>dialout</code> o <code>uucp</code>). También debe asegúrese de que su distribución monte automáticamente los dispositivos flash, o asegúrese de montarlos manualmente.</p>
     </div>
 </div>
+
+<script src="{{ ASSET_PATH }}/js/platform.js"></script>
