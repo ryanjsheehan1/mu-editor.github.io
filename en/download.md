@@ -2,6 +2,7 @@
 layout: default
 title: Download Mu
 i18n: en
+extrajs: platform.js
 ---
 
 # Download Mu
@@ -69,5 +70,3 @@ If you're a developer, you can find the source code
 [can be found here](https://github.com/mu-editor/mu/releases).
 
 **Instructions for developer setup** can be found [in our developer documentation](https://mu.readthedocs.io/en/latest/).
-
-<script src="{{ ASSET_PATH }}/js/platform.js"></script>
