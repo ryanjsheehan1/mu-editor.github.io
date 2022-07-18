@@ -68,12 +68,9 @@ and click OK. If you want to back out, click cancel.
     </div>
     <div class="col-md-11">
     <p><strong><a href="esp">MicroPython on ESP boards</a></strong></p>
-    <p><a href="https://adafruit.com/">Adafruit</a> make extraordinarily
-    awesome boards for embedded development. Many of these boards run
-    Adafruit's own flavour of <a href="http://micropython.org/">MicroPython</a>
-    called <a href="https://www.adafruit.com/circuitpython">CircuitPython</a>.</p>
-    <p>The CircuitPython mode understands how to interact with and connect to
-    Adafruit's boards.</p>
+    <p>ESP8266 and ESP32 boards are small, cheap and connect to the Internet. 
+    Both run <a href="https://micropython.org/">MicroPython</a> and work 
+    well with Mu.</p>
     </div>
 </div>
 <div class="row">
