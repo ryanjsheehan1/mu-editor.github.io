@@ -17,14 +17,14 @@ Installing Mu on macOS is super easy.
 + Open your Downloads folder - click "Go", then "Downloads" on the Finder menu. 
 
 <div class="row">
-  <img src="/img/en/howto/macos_go_downloads.png" alt="Mac OS open downloads" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/howto/macos_go_downloads.png" alt="macOS open downloads" class="img-responsive center-block img-rounded"/>
   <br/>
 </div>
 
 + Double click the Mu installer disk image (a .dmg file).
 
 <div class="row">
-  <img src="/img/en/howto/macos_downloads.png" alt="Mac OS downloads" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/howto/macos_downloads.png" alt="macOS downloads" class="img-responsive center-block img-rounded"/>
   <br/>
 </div>
 
@@ -37,7 +37,7 @@ may take a couple of minutes).
 + Click, hold and drag the "Mu" icon into the "Applications" folder.
 
 <div class="row">
-  <img src="/img/en/howto/macos1.png" alt="Mac OSX installer step 1" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/howto/macos1.png" alt="macOS installer step 1" class="img-responsive center-block img-rounded"/>
   <br/>
 </div>
 
@@ -46,7 +46,7 @@ may take a couple of minutes).
 Mu will install into the Applications folder on your Mac.
 
 <div class="row">
-  <img src="/img/en/howto/macos2.png" alt="Mac OSX installer step 2" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/howto/macos2.png" alt="macOS installer step 2" class="img-responsive center-block img-rounded"/>
 </div>
 
 ## Step 5 - Start Mu
@@ -54,7 +54,7 @@ Mu will install into the Applications folder on your Mac.
 + Open your Applications folder - click "Go", "Applications" on the Finder menu. 
 
 <div class="row">
-  <img src="/img/en/howto/macos_go_applications.png" alt="Mac OS open downloads" class="img-responsive center-block img-rounded"/>
+  <img src="/img/en/howto/macos_go_applications.png" alt="macOS open downloads" class="img-responsive center-block img-rounded"/>
   <br/>
 </div>
 
