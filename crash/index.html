@@ -46,7 +46,7 @@
   <p>Next steps:</p>
   <ul>
     <li>
-      <a href="" target="_blank" rel="noopener noreferrer" id="bugreport">Submit a new bug report</a>
+      <a href="" target="_blank" rel="noopener noreferrer" id="bugreport" data-goatcounter-click="click-submitbug">Submit a new bug report</a>
       (you will need a <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub account</a> for this to work).
     </li>
     <li>
@@ -101,8 +101,16 @@
    var body = "**REMEMBER TO ATTACH YOUR LOG FILE**" + "\n\nVersion: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
    var github_body = "body=" + encodeURIComponent(body);
    document.getElementById("bugreport").href = github_url + github_title + github_body;
+
+   // Save Mu version to collect later
+   window.mu_version = qs["v"];
  }
  update();
+ </script>
+ <script data-goatcounter="https://mu-editor.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' src="//gc.zgo.at/count.js"></script>
+ <script>
+  window.goatcounter.count({ path: location.pathname });
+  window.goatcounter.count({ path: 'version-' + window.mu_version, event: true });
  </script>
 </body>
 </html>
