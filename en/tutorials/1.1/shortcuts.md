@@ -6,8 +6,10 @@ i18n: en
 
 # Keyboard Shortcuts 
 
-All the features in Mu can be accessed via keyboard shortcuts. Here's how they
-work!
+All the features in Mu can be accessed via keyboard shortcuts. Windows and Linux
+users should use the Control key as shown below.  macOS users should replace Control with Command.
+
+Here's how they work!
 
 ## Common Buttons
 
