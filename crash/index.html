@@ -52,7 +52,7 @@
   <p>Next steps:</p>
   <ul>
     <li>
-      <a href="" target="_blank" rel="noopener noreferrer" id="bugreport">Submit a new bug report</a>
+      <a href="" target="_blank" rel="noopener noreferrer" id="bugreport" data-goatcounter-click="click-submitbug">Submit a new bug report</a>
       (you will need a <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub account</a> for this to work).
     </li>
     <li>
@@ -102,7 +102,7 @@
    if (qs["f"]) {
      document.getElementById("log_file_path").innerText = qs["f"];
    }
-   var github_url = "https://github.com/mu-editor/mu/issues/new?";
+   var github_url = "https://github.com/mu-editor/crash-reports/issues/new?";
    var github_title = "title=Crash%20Report&";
    var body = "**REMEMBER TO ATTACH YOUR LOG FILE**" + "\n\nVersion: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
    var github_body = "body=" + encodeURIComponent(body);
@@ -110,8 +110,15 @@
    if (qs["v"] !== "1.2.0") {
      document.getElementById("not-latest").style.display = "block";
    }
+   // Save Mu version to collect later
+   window.mu_version = qs["v"];
  }
  update();
+ </script>
+ <script data-goatcounter="https://mu-editor.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' src="//gc.zgo.at/count.js"></script>
+ <script>
+  window.goatcounter.count({ path: location.pathname });
+  window.goatcounter.count({ path: 'version-' + window.mu_version, event: true });
  </script>
 </body>
 </html>

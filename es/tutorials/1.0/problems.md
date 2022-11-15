@@ -11,7 +11,7 @@ As you'll know from writing your own code, all software has bugs!
 Mu is no exception and it's likely you may discover some odd behaviour or Mu
 may report a problem.
 
-If this is the case, we've [created a guide to help you submit a bug report](/en/howto/bugs).
+If this is the case, we've [created a guide to help you submit a bug report](/es/howto/1.0/bugs).
 We love getting feedback because bug reports help us to improve Mu and make it
 easy for our users to contribute back to the project.
 

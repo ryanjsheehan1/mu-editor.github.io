@@ -30,7 +30,7 @@ The first tab contains the logs written during the current day:
 </div>
 
 To learn what the log entries mean please read our guide for
-[how to read logs in Mu](/en/howto/read_logs).
+[how to read logs in Mu](/es/howto/1.1/read_logs).
 
 The second tab allows you to configure various aspects of the environment in
 which Python 3 runs your code (so called "environment variables"):
@@ -41,7 +41,7 @@ which Python 3 runs your code (so called "environment variables"):
 </div>
 
 To learn how to update the Python 3 environment with environment variables,
-read our guide for [how to do this](/en/howto/python3_envars).
+read our guide for [how to do this](/es/howto/1.1/python3_envars).
 
 Finally, the third tab contains various settings for flashing code onto a
 connected BBC micro:bit:
@@ -52,4 +52,4 @@ connected BBC micro:bit:
 </div>
 
 To learn how to change the way code is flashed onto a connected BBC micro:bit,
-read our guide for [how to do this](/en/howto/microbit_settings).
+read our guide for [how to do this](/es/howto/1.1/microbit_settings).

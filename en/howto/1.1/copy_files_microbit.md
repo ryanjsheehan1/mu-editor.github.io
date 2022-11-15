@@ -20,7 +20,7 @@ The pane shown below will appear at the bottom of Mu's window. Simply click and
 drag a file between the list of files on the micro:bit and those on your
 computer (as the animation shows). The files on your computer can be found in
 the folder Mu uses as your working directory (see the tutorial called
-[where are my files?](/en/tutorials/1.0/files)).
+[where are my files?](/en/tutorials/1.1/files)).
 
 <div class="row">
   <img src="/img/en/howto/microbit_files.gif" alt="Moving files with a micro:bit" class="img-responsive center-block img-rounded movie"/>
