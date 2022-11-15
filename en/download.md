@@ -22,7 +22,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   <div class="media-body">
     <h4 class="media-heading">Windows Installer</h4>
     <p><a id="download-button-windows" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi" class="btn btn-primary" role="button">Download</a>
-    <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instructions</a></p>
+    <a href="/en/howto/1.2/install_windows" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
 
@@ -35,7 +35,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   <div class="media-body">
     <h4 class="media-heading">Mac OSX Installer</h4>
     <p><a id="download-button-macos" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-OSX-1.2.0.dmg" class="btn btn-primary" role="button">Download</a>
-    <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instructions</a></p>
+    <a href="/en/howto/1.2/install_macos" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/m
   <div class="media-body">
     <h4 class="media-heading">Linux AppImage Package (Experimental)</h4>
     <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.AppImage" class="btn btn-primary" role="button">Download</a>
-    <a href="/en/howto/1.1/install_linux" class="btn btn-default" role="button">Instructions</a></p>
+    <a href="/en/howto/1.2/install_linux" class="btn btn-default" role="button">Instructions</a></p>
   </div>
 </div>
 

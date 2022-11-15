@@ -18,7 +18,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   <div class="media-body">
     <h4 class="media-heading">Instalador Windows</h4>
     <p><a id="download-button-windows" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi" class="btn btn-primary" role="button">64-bit</a>
-    <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instrucciones</a></p>
+    <a href="/en/howto/1.2/install_windows" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   <div class="media-body">
     <h4 class="media-heading">Instalador Mac OSX</h4>
     <p><a id="download-button-macos" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-OSX-1.2.0.dmg" class="btn btn-primary" role="button">Descargar</a>
-    <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instrucciones</a></p>
+    <a href="/en/howto/1.2/install_macos" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
@@ -44,7 +44,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   <div class="media-body">
     <h4 class="media-heading">Linux</h4>
     <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.AppImage" class="btn btn-primary" role="button">Descargar</a>
-    <a href="/en/howto/1.1/install_linux" class="btn btn-default" role="button">Instrucciones</a></p>
+    <a href="/en/howto/1.2/install_linux" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 
