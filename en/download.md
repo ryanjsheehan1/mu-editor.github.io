@@ -11,7 +11,7 @@ The simplest and easiest way to get Mu is via the official installer for
 Windows or Mac OSX (we no longer support 32bit Windows). We also have an
 experimental AppImage for Linux users running on Intel based hardware.
 
-The current recommended version is Mu 1.1.1. We advise people to update
+The current recommended version is Mu 1.2.0. We advise people to update
 to this version via the links for each supported operating system. All previous
 beta versions of Mu [can be downloaded from here](https://github.com/mu-editor/mu/releases).
 
