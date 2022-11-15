@@ -43,6 +43,12 @@
   <p>Something has gone wrong with Mu. Here's the error:</p>
   <pre><code id="error"></code></pre>
 
+  <p style="display: none; text-align: left; font-size: 1.4em;" id="not-latest">
+    <strong>There is a newer version of Mu
+    <a href="https://codewith.mu/en/download">available here</a>.
+    <em>Please update to this version</em>, and try again.</strong>
+  </p>
+
   <p>Next steps:</p>
   <ul>
     <li>
@@ -101,6 +107,9 @@
    var body = "**REMEMBER TO ATTACH YOUR LOG FILE**" + "\n\nVersion: " + qs["v"] + "\nLocale: " + qs["l"] + "\nPlatform: " + qs["p"] + "\n\n```\n" + qs["e"] + "\n```";
    var github_body = "body=" + encodeURIComponent(body);
    document.getElementById("bugreport").href = github_url + github_title + github_body;
+   if (qs["v"] !== "1.2.0") {
+     document.getElementById("not-latest").style.display = "block";
+   }
  }
  update();
  </script>

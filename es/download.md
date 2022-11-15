@@ -17,7 +17,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   </div>
   <div class="media-body">
     <h4 class="media-heading">Instalador Windows</h4>
-    <a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-win64-1.1.1.msi" class="btn btn-primary" role="button">64-bit</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi" class="btn btn-primary" role="button">64-bit</a>
     <a href="/en/howto/1.1/install_windows" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
@@ -30,7 +30,7 @@ Si eres desarrollador, puedes encontrar el código fuente en
   </div>
   <div class="media-body">
     <h4 class="media-heading">Instalador Mac OSX</h4>
-    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.1.1/MuEditor-osx-1.1.1.dmg" class="btn btn-primary" role="button">Descargar</a>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-OSX-1.2.0.dmg" class="btn btn-primary" role="button">Descargar</a>
     <a href="/en/howto/1.1/install_macos" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
@@ -39,11 +39,12 @@ Si eres desarrollador, puedes encontrar el código fuente en
 
 <div class="media">
   <div class="media-left">
-    <img src="/img/python_logo.png" alt="Python Logo" class="media-object">
+    <img src="/img/linux.png" alt="Linux Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Paquete Python</h4>
-        <p><a href="/en/howto/1.1/install_with_python" class="btn btn-default" role="button">Instrucciones</a></p>
+    <h4 class="media-heading">Linux</h4>
+    <p><a href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.AppImage" class="btn btn-primary" role="button">Descargar</a>
+    <a href="/en/howto/1.1/install_linux" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
 

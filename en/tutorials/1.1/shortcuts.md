@@ -161,4 +161,7 @@ The micro:bit's REPL pane understands the following key combinations:
     <dt>CTRL SHIFT D</dt>
     <dd>Show the admin dialog (the same as clicking the cog in the bottom right
     of Mu's window).</dd>
+    <dt>CTRL ALT S</dt>
+    <dd>Take a screenshot of the current source code file (great for embedding
+    pictures of code in presentations, websites or educational resources).</dd>
 </dl>
