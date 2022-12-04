@@ -31,7 +31,7 @@ function checkURL() {
     if (rel_path.len <= 1) {
         return;
     }
-    const code = rel_path[1]
+    const code = rel_path[1];
     if (language_codes.includes(code)) {
         // check if english version exists, and redirect to it
         rel_path[1] = "en";
