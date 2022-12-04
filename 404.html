@@ -2,6 +2,8 @@
 layout: default
 title: Page not found 
 ---
+<body onload="checkURL()">
+
 <div class="row text-center "><h1><strong>Sorry!</strong>
 The page you are looking for does not exist. :-(</h1></div>
 <div class="row">
@@ -10,3 +12,36 @@ The page you are looking for does not exist. :-(</h1></div>
 </div>
 
 <div class="row text-center"><p>(We're still working on some of the content. Come back again soon!)</p></div>
+
+<script>
+function urlExists(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            callback(xhr.status < 400);
+        }
+    };
+    xhr.open("HEAD", url);
+    xhr.send();
+}
+
+function checkURL() {
+    const language_codes = ["en", "es", "de", "fr", "ja", "pt", "zh"];
+    const rel_path = window.location.pathname.split("/");
+    if (rel_path.len <= 1) {
+        return;
+    }
+    const code = rel_path[1];
+    if (language_codes.includes(code)) {
+        // check if english version exists, and redirect to it
+        rel_path[1] = "en";
+        const new_path = rel_path.join("/");
+        urlExists(new_path, function (exists) {
+            if (exists) {
+                window.location.replace(new_path);
+            }
+        });
+    }
+}
+</script>    
+</body>
