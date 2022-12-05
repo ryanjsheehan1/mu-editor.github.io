@@ -14,8 +14,8 @@ currently using the [AppImage](https://appimage.org/) standard for package distr
 
 ## Step 1 - Download the AppImage
 
-* [Download the AppImage](/en/download) and put it somewhere safe (such as your
-  home directory, or Downloads directory).
+* [Download the AppImage TAR archive](/en/download) and put it somewhere safe
+  (such as your home directory, or Downloads directory).
 
 
 ## Step 2 - Update User Permissions
@@ -40,25 +40,30 @@ please consult your distribution's documentation for how to automatically
 mount such devices when they are plugged in.
 
 
-## Step 3 - Update AppImage Permissions
+## Step 3 - Untar Mu
 
-* In the file explorer, find the AppImage you downloaded in the first step, and
-  right click to display the context menu.
+* In the file explorer, find the AppImage TAR archive you downloaded in the
+  first step, and right click to display the context menu.
 
 <div class="row">
-  <img src="/img/en/howto/mu_linux-1.png" alt="Right click AppImage" class="img-responsive center-block img-rounded "/>
+  <img src="/img/en/howto/extract_here.png" alt="Right click TAR file" class="img-responsive center-block img-rounded "/>
   <br/>
 </div>
 
-* Select the "Properties" entry. A new modal window will open.
-* Select the "Permissions" tab.
-* Make sure the "Allow executing file as program" check box ("Execute") is ticked.
+* Select the "Extract here" entry. A new directory will appear.
+
 <div class="row">
-  <img src="/img/en/howto/mu_linux-2.png" alt="Execute AppImage" class="img-responsive center-block img-rounded "/>
+  <img src="/img/en/howto/extract_here2.png" alt="New directory containing AppImage" class="img-responsive center-block img-rounded "/>
   <br/>
 </div>
-* Close the window.
 
+* Inside the new directory is the AppImage containing Mu.
+
+
+<div class="row">
+  <img src="/img/en/howto/extract_here3.png" alt="The Mu AppImage, to run." class="img-responsive center-block img-rounded "/>
+  <br/>
+</div>
 
 ## Step 4 - Install Dependencies
 

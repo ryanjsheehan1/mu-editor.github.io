@@ -42,8 +42,8 @@ Si eres desarrollador, puedes encontrar el código fuente en
     <img src="/img/linux.png" alt="Linux Logo" class="media-object">
   </div>
   <div class="media-body">
-    <h4 class="media-heading">Linux</h4>
-    <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.AppImage" class="btn btn-primary" role="button">Descargar</a>
+    <h4 class="media-heading">Linux AppImage TAR</h4>
+    <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar" class="btn btn-primary" role="button">Descargar</a>
     <a href="/en/howto/1.2/install_linux" class="btn btn-default" role="button">Instrucciones</a></p>
   </div>
 </div>
